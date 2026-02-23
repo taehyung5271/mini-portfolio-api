@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mini-portfolio-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/portfolio
+    username: user
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
