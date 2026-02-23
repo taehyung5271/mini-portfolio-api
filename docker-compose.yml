@@ -24,6 +24,7 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/portfolio
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
+      APP_CORS_ALLOWED-ORIGINS: http://localhost:5173,https://mini-portfolio-teal.vercel.app/
     depends_on:
     - db
 volumes:
