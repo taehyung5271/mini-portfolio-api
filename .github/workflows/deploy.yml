@@ -22,8 +22,8 @@ jobs:
 
       - name: Build & Push Docker Image
         run: |
-          docker build -t keonjo/myportfolio-api:latest .
-          docker push keonjo/myportfolio-api:latest
+          docker build -t kth14200/myportfolio-api:latest .
+          docker push kth14200/myportfolio-api:latest
 
 
       - name: Deploy to EC2
